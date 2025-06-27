@@ -1,6 +1,6 @@
 # Inventory Management System
 
-A modern inventory management and stock tracking system built with React and Vite.
+A modern inventory management system built with React and Vite.
 
 ## 🚀 Getting Started
 
