@@ -19,7 +19,7 @@ export default function AdminPage() {
         {/* Header */}
         <div className="flex items-center p-6 border-b border-gray-600/30">
           <img
-            src="/eventora.png"
+            src="/InventoryLogo.png"
             alt="Logo"
             className={`transition-all duration-300 ease-in-out ${isSidebarOpen ? "w-10 h-10" : "w-8 h-8"} rounded-lg shadow-sm`}
           />
