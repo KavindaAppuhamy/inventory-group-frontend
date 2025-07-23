@@ -87,7 +87,7 @@ export default function AddStock() {
               onChange={handleChange}
               className="w-full px-4 py-3.5 rounded-2xl border border-gray-200 bg-white/70 text-gray-900"
             >
-              <option value="units">3nits</option>
+              <option value="units">4nits</option>
               <option value="packs">Packs</option>
               <option value="kg">Kg</option>
               <option value="g">Grams</option>
