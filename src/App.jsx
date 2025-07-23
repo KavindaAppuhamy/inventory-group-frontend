@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import AdminDashboard from './pages/admin/adminDashboard';
 import EmployeeCreate from './pages/adminDashboardPages/employeeCreate';
 import ManageEmployee from './pages/adminDashboardPages/manageEmployee';
+import AdminPage from './pages/adminPage'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AdminDashboard />}>
           <Route index element={<div>Welcome to Employee Management</div>} />
+          <Route path="/admin/*" element={<AdminPage />} /> 
           <Route path="employee-manage" element={<ManageEmployee />} />
           <Route path="employee-create" element={<EmployeeCreate />} />
         </Route>
