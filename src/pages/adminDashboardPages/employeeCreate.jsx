@@ -68,7 +68,7 @@ export default function EmployeeCreate() {
         toast.success("Employee created successfully!");
         navigate("/employee-create");
       } catch (error) {
-        console.error("❌ Failed to create employee:", error.response?.data || error.message);
+        console.error("❌ passed to create employee:", error.response?.data || error.message);
         toast.error("Failed to create employee.");
       } finally {
         setLoading(false);
