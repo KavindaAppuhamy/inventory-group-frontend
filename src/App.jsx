@@ -1,11 +1,19 @@
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import ForgotPassword from './pages/ForgotPassword'
+import LoginPage from './pages/LoginPage'
+import SignupPage from './pages/SignupPage'
 
 function App() {
 
   return (
-    <>
-      <h1>Inventory System</h1>
-    </>
+     
+        <Routes>
+            <Route path='/' element={<LoginPage />} />
+            <Route path='/signup' element={<SignupPage />} />
+            <Route path='/forgot' element={<ForgotPassword />} />
+        </Routes>
+     
   )
 }
 
